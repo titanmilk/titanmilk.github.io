@@ -1,0 +1,93 @@
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background: radial-gradient(circle, white 0%, rgba(148,187,233,1) 100%);;
+  }
+  @import url(http://allfont.ru/allfont.css?fonts=a_lcdnova);
+
+p {
+	font-family: 'a_LCDNova', arial;
+	font-size: 33px;
+	text-align: center;
+}
+
+.ren{
+		cursor: pointer;
+		display: inline-block;
+		color: black;
+		text-decoration: none;
+		user-select: none;
+		padding: .5em 2em;
+		outline: none;
+		border: 2px solid #CDCDCB;
+		border-radius: 4px;
+		transition: 0.2s;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		padding: 10px 30px;
+  border-radius: 10px;
+  transition: .2s linear;
+}
+
+.ren:hover{
+	box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+}
+
+.again{
+	cursor: pointer;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	user-select: none;
+	outline: none;
+	border: 2px solid #CDCDCB;
+	border-radius: 4px;
+	transition: 0.2s;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 165px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: .2s linear;
+}
+
+.again:hover{
+	box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+}
+
+.row div{
+	height: 67px;
+	width: 67px;
+	margin: 2px;
+	cursor: pointer;
+	display:inline-block;
+  padding: 3px 3px;
+  border-radius: 10px;
+  transition: .2s linear;
+}
+
+.row div:hover{
+	box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+}
+
+.on{
+	background: radial-gradient(circle, rgba(250,255,0,1) 0%, rgba(234,229,54,1) 100%);
+	border: 1px solid rgb(255, 251, 0);
+}
+
+.off{
+background: rgb(165, 158, 158);
+border: 1px solid rgb(80, 74, 74);
+}
+.btn{
+text-align: center;
+margin-top: 12px;
+}
+.lo{
+	width:100%;
+}
